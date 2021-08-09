@@ -1,0 +1,313 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: "Merriweather", serif;
+  color: #40514e;
+}
+
+h1 {
+  font-size: 5.625rem;
+  margin: 50px auto 0 auto;
+  font-family: "Sacramento", cursive;
+  color: #66bfbf;
+}
+strong {
+  font-size: 645%;
+  margin: 50px auto 0 auto;
+  font-family: "Sacramento", cursive;
+  color: #66bfbf;
+}
+
+h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 195%;
+  font-weight: normal;
+  color: #66bfbf;
+}
+
+h3 {
+  font-family: "Montserrat", sans-serif;
+  color: #11999e;
+}
+p {
+  line-height: 2;
+}
+.profilepic {
+  margin-top: 30px;
+  padding-top: 35px;
+  padding-bottom: 20px;
+}
+.skill-row {
+  width: 60%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+}
+.app-developer {
+  height: 25%;
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+.full-stack-deaveloper {
+  height: 35%;
+  width: 45%;
+  float: right;
+  margin-left: 30px;
+}
+.pizza-challenge {
+  height: 25%;
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.top-container {
+  background-color: #e4f9f5;
+  position: relative;
+  padding: 100px;
+}
+.middle-container {
+  background-color: #ffffff;
+  margin: 0 0 0 0;
+}
+
+.bottom-container {
+  font-family: "Montserrat", sans-serif;
+  background-color: #66bfbf;
+  margin-top: 0;
+  color: #11999e;
+  text-decoration: inherit;
+  padding: 50px 0 20px;
+}
+.copyright {
+  color: #eaf6f6;
+  font-size: 0.75rem;
+  padding: 20px 0;
+}
+.my-skills {
+  text-decoration: underline;
+}
+
+.footer-link {
+  color: #11999e;
+  padding: 20px;
+  text-decoration: none;
+}
+.footer-link:hover {
+  color: #eaf6f6;
+}
+
+.btn_s {
+  background-color: #11cdd4;
+  border: none;
+  color: #ffffff;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 40px auto;
+  cursor: pointer;
+  border-radius: 8px;
+  font-family: "Montserrat", sans-serif;
+}
+.btn_s:hover {
+  background-color: #30e3cb;
+  color: white;
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
+    0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+hr {
+  border-style: none;
+  border-top-style: dotted;
+  width: 4%;
+  border-color: #eaf6f6;
+  border-width: 6px;
+  margin: 60px auto;
+  background-color: transparent;
+}
+.love-pizza {
+  width: 40%;
+  margin: 40px auto;
+}
+
+/* Navigation Bar */
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat-light";
+}
+
+/* 
+Animation
+ */
+.jumbotroun {
+  color: #fff;
+  background: linear-gradient(
+    -45deg,
+    #d6eaf8,
+    #aed6f1,
+    #a9cce3,
+    #fef9e7,
+    #d6dbdf,
+    #808b96
+  );
+  background-size: 500% 500%;
+  -webkit-animation: Gradient 15s ease infinite;
+  -moz-animation: Gradient 15s ease infinite;
+  animation: Gradient 15s ease infinite;
+}
+
+.jumbotroun2 {
+  color: #fff;
+  z-index: 1;
+  background: linear-gradient(-45deg, #808b96, #4a235a, #23a6d5);
+  background-size: 400% 400%;
+  -webkit-animation: Gradient 15s ease infinite;
+  -moz-animation: Gradient 15s ease infinite;
+  animation: Gradient 15s ease infinite;
+}
+
+.jumbotroun3 {
+  color: #fff;
+  z-index: 1;
+  background: linear-gradient(-45deg,  #000,#4a235a, #e73c7e);
+  background-size: 400% 400%;
+  -webkit-animation: Gradient 15s ease infinite;
+  -moz-animation: Gradient 15s ease infinite;
+  animation: Gradient 15s ease infinite;
+}
+
+@-webkit-keyframes Gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+@-moz-keyframes Gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+@keyframes Gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.cloudMove1 {
+  background-size: 600% 600%;
+  background-repeat: repeat-x;
+  animation: cloudMove 22s linear infinite;
+}
+
+.cloudMove2 {
+  background-size: 600% 600%;
+  background-repeat: repeat-x;
+  animation: cloudMove 18s linear infinite;
+}
+.cloudMove3 {
+  background-size: 600% 600%;
+  background-repeat: repeat-x;
+  animation: cloudMove 16s linear infinite;
+}
+
+@keyframes cloudMove {
+  0% {
+    transform: translateX(-2400px);
+  }
+}
+
+/* Toggle button theme Change */
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+}
+
+/* Hide default HTML checkbox */
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+/* The slider */
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+input:checked + .slider {
+  background-color: #2196f3;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196f3;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}

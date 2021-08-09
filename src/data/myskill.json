@@ -1,0 +1,44 @@
+[
+    {
+        "name": "HTML/CSS3/JAVASCRIPT",
+        "image": "/images/htmlcssjava.png",
+        "_id": "1",
+        "description": "HTML provide the basic structure of sites which is enhanced and modified by other technologies like CSS3 and JAVASCRIPT. CSS3 is used to control presentation,formatting,and layout."
+    },
+    {
+        "name": "Bootstrap & jQuery",
+        "image": "/images/bootstrap_jquery.jpeg",
+        "_id": "2",
+        "description": "Bootstrap is potent front-end framework uses to create modern websites and web apps. jQuery is cross-platform javaScript library."
+    },
+    {
+        "name": "MySQL/ MongoDB",
+        "image": "/images/mysql_mongodb.jpg",
+        "_id": "3",
+        "description": "MySQL is an open-based relational database management system. MongoDB is across-platform document-oriented database program."
+    },
+    {
+        "name": "React.js",
+        "image": "/images/react.png",
+        "_id": "4",
+        "description": "React is front-end library.It is used for handling the view layer for web and mobile apps.React.js allows us to create reusable UI components. I have a good knowledge about it."
+    },
+    {
+        "name": " M E R N ",
+        "image": "/images/mern.png",
+        "_id": "5",
+        "description": "MERN Stack is a Javascript Stack that is used for easier and faster deployment of full-stack web applications. MERN Stack comprises of 4 technologies namely: MongoDB, Express, React and Node. js. It is designed to make the development process smoother and easier."
+    },
+    {
+        "name": "Full Stack Web Developer",
+        "image": "/images/full-stack-development.jpeg",
+        "_id": "6",
+        "description": "It refers to the development of both front end(client side) and back end(server side) portions of web application. ... They work on the frontend, backend, database and debugging of web application or websites."
+    },
+    {
+        "name": "App development",
+        "image": "/images/appdevelopment.png",
+        "_id": "7",
+        "description": "App Development refers to the creation of computer applications for use on mobile devices such as tablets, smartphones and smart watches.Mobile applications are designed and built for different operating systems . "
+    }
+]

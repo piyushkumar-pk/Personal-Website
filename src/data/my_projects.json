@@ -1,0 +1,122 @@
+[
+    {
+        "name": "Ecommerce Website (Using React)",
+        "image": "/images/ecommerce_app.jpg",
+        "project_link": "",
+        "components_use": "MERN ( MongoDb, express, React, Node.js )",
+        "_id": "4",
+        "database": "Mongodb-Atlas",
+        "externalapi": "Braintree(for payment gateway), Twilo Sendgrid (for Order's notification on mail)",
+        "pages": "Home, Shop, Cart, Signin, SignUp, UserDashboard ( Profile- edit, Order - History, My-Cart ), AdminDashboard ( Create-Product, Create-Category, Edit-Prdouct (Update,remove), Orders (update-Order-Status), OverAll-View(No.of-orders,No.of-users,Total-income ,No.of-Products , etc)) ",
+        "style": "Bootstrap, Css3",
+        "about": "An e-commerce website, by definition, is a website that allows you to buy and sell tangible goods, digital products or services online. Trade, be it barter exchange or buying and selling of goods and services has been prevalent for centuries. ... And this brings out the need for demand and supply of goods and services."
+    },
+    {
+        "name": "Daily Journal",
+        "image": "/images/daily-Journal.jpg",
+        "project_link": "",
+        "components_use": "MongoDb, express, Node.js, Ejs, Bootstrap",
+        "_id": "1",
+        "database": "MongoDb",
+        "externalapi": "",
+        "pages": "home, about-us, contact us, compose",
+        "style": "Bootstrap, css3",
+        "about": "A blog (a truncation of 'weblog') is a discussion or informational website published on the World Wide Web consisting of discrete, often informal diary-style text entries (posts). Posts are typically displayed in reverse chronological order, so that the most recent post appears first, at the top of the web page."
+    },
+    {
+        "name": "Drum Kit",
+        "image": "/images/Drum-kit.jpg",
+        "project_link": "https://piyushkumar-pk.github.io/drum-kit/",
+        "components_use": "HTML, CSS3, javascript, jQuery",
+        "_id": "2",
+        "database": "",
+        "externalapi": "",
+        "pages": "drum",
+        "style": "css3",
+        "about": "Press the default keys or click to play after visit. The drum is a member of the percussion group of musical instruments. ... Others are normally played in a set of two or more, all played by the one player, such as bongo drums and timpani. A number of different drums together with cymbals form the basic modern drum kit."
+    },
+    {
+        "name": "Dice/Ludo Game",
+        "image": "/images/dice.jpg",
+        "project_link": "",
+        "components_use": "HTML, CSS3, javascript, jQuery",
+        "_id": "3",
+        "database": "",
+        "externalapi": "",
+        "pages": "game page",
+        "style": "css3",
+        "about": "Ludo is a strategy board game for two to four players, in which the players race their four tokens from start to finish according to the rolls of a single die. Like other cross and circle games, Ludo is derived from the Indian game Pachisi, but simpler."
+    },
+    {
+        "name": "Emojipedia",
+        "image": "/images/emojipedia.jpg",
+        "project_link": "",
+        "components_use": "MongoDb, express, React, Node.js, Bootstrap",
+        "_id": "5",
+        "database": "mongoDb",
+        "externalapi": "",
+        "pages": "home, dataEntry",
+        "style": "css3, bootstrap",
+        "about": "Emojipedia is an emoji reference website which documents the meaning and common usage of emoji characters in the Unicode Standard. Most commonly described as an emoji encyclopedia or emoji dictionary, Emojipedia also publishes articles and provides tools for tracking new emoji characters, design changes and usage trends."
+    },
+    {
+        "name": "News Letter",
+        "image": "/images/News_Letter.jpg",
+        "project_link": "",
+        "components_use": "MongoDb, express, React, Node.js, Bootstrap",
+        "_id": "6",
+        "database": "MongoDb",
+        "externalapi": "mailchimp",
+        "pages": "login",
+        "style": "css3, Bootstrap",
+        "about": "A newsletter is a printed or electronic report containing news concerning the activities of a business or an organization that is sent to its members, customers, employees or other subscribers. "
+    },
+    {
+        "name": "Share your secrets",
+        "image": "/images/secrets.jpg",
+        "project_link": "",
+        "components_use": "Node.js, express, Ejs, MongoDb, oAuth 2.0, jQuery ",
+        "_id": "7",
+        "database": "MongoDb",
+        "externalapi": "Google oAuth 2.0",
+        "pages": "login, signup, secret",
+        "style": "css3, bootstrap",
+        "about": "Secrecy is the practice of hiding information from certain individuals or groups who do not have the 'need to know', perhaps while sharing it with other individuals. That which is kept hidden is known as the secret."
+    },
+    {
+        "name": "Simon",
+        "image": "/images/simon.jpg",
+        "project_link": "https://piyushkumar-pk.github.io/simon/",
+        "components_use": "HTML, CSS3, javascript, jQuery",
+        "_id": "8",
+        "database": "",
+        "externalapi": "",
+        "pages": "Game page",
+        "style": "css3",
+        "about": "Follow the sequence to play the game... This game is the online version of the Simon electronic game with its circular design and its four large colored keys: red, green, blue and yellow. Each key is linked to an electronic sound which will help the player to memorize the series of illuminated keys."
+    },
+    {
+        "name": "Tindog Website",
+        "image": "/images/tindog.jpg",
+        "project_link": "https://piyushkumar-pk.github.io/tindog/",
+        "components_use": "html, css, javascript, bootstrap, jQuery",
+        "_id": "9",
+        "database": "",
+        "externalapi": "",
+        "pages": "home",
+        "style": "css3, bootstrap",
+        "about": "the online marketplace that matches dog owners in need of pet-care services with qualified pet caregivers, Tindog offers a great way to socialize a dog while connecting people that share a similar interest.Visit to check my work"
+    },
+    {
+        "name": "Travel Guru",
+        "image": "/images/travel-guru.jpg",
+        "project_link": "https://travelguru-tourist-guidence.herokuapp.com",
+        "components_use": "MongoDb, express, Node.js, Bootstrap, Ejs, jQuery",
+        "_id": "10",
+        "database": "MongoDb",
+        "externalapi": "",
+        "style": "css3,Bootstrap3",
+        "pages": "Home, login, signup, visit here, review, etc.",
+        "about": "ravel website, offering you the best prices on flights, hotels and holiday packages across India and the world. ... Travelguru's current product offering consists of airline tickets, hotel rooms and vacation packages.Visit to see the project"
+    }
+]
