@@ -26,7 +26,7 @@ const MySkills = () => {
 
     return (
         <div id="myskills" style={{ marginBottom:'15%'}}>
-            <h2 className="my-skills" style={{marginBottom:"7%"}}>My Skills.</h2>
+            <h2 className="my-skills" style={{marginBottom:"7%", fontSize: '155%'}}>My Skills.</h2>
             {myskillsData.map((p, i) => (
                 <div key={i} style={{marginBottom :"10%"}}>
                     {leftRight(p)}

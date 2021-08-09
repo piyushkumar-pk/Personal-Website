@@ -8,7 +8,7 @@ const MyProjects = ({ themes }) => {
     return (
         <div id="myprojects" className="mt-5">
             <div className="container mt-5" style={{ backgroundColor: themes ? '#1C2833 ' : '#EAF6F6', borderRadius: "25px" }}>
-                <h2 className="my-skills" style={{ padding: "5%" }}>My Projects.</h2>
+                <h2 className="my-skills" style={{ padding: "5%", fontSize: '155%' }}>My Projects.</h2>
                 <div className="row" style={{ margin: '1%' }}>
                     {myProjectsData.map((p, i) => (
                         <div className="col-md-4 col-sm-6 mb-5" key={i} >
