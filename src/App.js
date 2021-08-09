@@ -33,7 +33,7 @@ const App = () => {
 
   return (
     <div >
-      <div className="btn btn-outline-dark rounded-right" style={{ position: 'fixed', zIndex: 10, width: '88px', height: '17%', left: '0', right: '80%', top: '40%', opacity: '0.6', backgroundColor: theme === true ? '#fff' : '#000' }}>
+      <div className="btn btn-outline-dark rounded-right" style={{ position: 'fixed', zIndex: 10, width: '88px', maxHeight: '90px', left: '0', right: '80%', top: '40%', opacity: '0.6', backgroundColor: theme === true ? '#fff' : '#000' }}>
         <form className="mt-1 mb-1">
           <label className="mt-1" style={{ color: 'red', marginLeft: 0 }} >Change Theme</label>
           <div style={{ width: '150%', height: '150%', marginLeft: '25%' }} className="form-check form-switch">
