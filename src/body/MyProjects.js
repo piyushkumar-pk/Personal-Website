@@ -5,20 +5,6 @@ import myProjectsData from "../data/my_projects.json";
 
 const MyProjects = ({ themes }) => {
 
-    // const linkPages = (p) => {
-    //     if (p.project_link === "") {
-    //         return (
-
-    //         );
-    //     } else {
-    //         return (
-    //             <Link to={{ pathname: `${p.project_link}` }} target="_blank">
-    //                 <img className="" src={p.image} alt="app-developer" style={{ height: '80%', width: "100%", borderStyle: "solid", borderColor: 'black' }} />
-    //             </Link>
-    //         );
-    //     }
-    // };
-
     return (
         <div id="myprojects" className="mt-5">
             <div className="container mt-5" style={{ backgroundColor: themes ? '#1C2833 ' : '#EAF6F6', borderRadius: "25px" }}>
