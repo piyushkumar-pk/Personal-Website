@@ -9,7 +9,7 @@ const Top = ({ themes }) => {
         } else {
             return 'container-fluid jumbotroun2'
         }
-    }
+    };
 
 
     return (
@@ -17,7 +17,7 @@ const Top = ({ themes }) => {
             <div style={{
                 backgroundImage: themes === false ? (`url("images/sun.png")`) : (`url("images/moon.png")`), backgroundRepeat: 'no-repeat', backgroundSize: themes === false ? '45% 45%' : '41% 41%', backgroundPosition: 'center'
             }}>
-                <Menu themes={themes}/>
+                <Menu themes={themes} />
                 <div className="row" >
                     <div className="" >
                         <div style={{ marginLeft: '44%', marginBottom: 0 }}>
@@ -39,10 +39,7 @@ const Top = ({ themes }) => {
                         </div>
                     </div>
                 </div>
-
             </div>
-
-
         </div>
     );
 };

@@ -32,7 +32,7 @@ const App = () => {
 
 
   return (
-    <div >
+    <div>
       <div className="btn btn-outline-dark rounded-right" style={{ position: 'fixed', zIndex: 10, width: '88px', maxHeight: '90px', left: '0', right: '80%', top: '40%', opacity: '0.6', backgroundColor: theme === true ? '#fff' : '#000' }}>
         <form className="mt-1 mb-1">
           <label className="mt-1" style={{ color: 'red', marginLeft: 0 }} >Change Theme</label>
@@ -45,7 +45,7 @@ const App = () => {
       <Bodyp themes={theme} />
       <Bottomp themes={theme} />
     </div>
-  )
+  );
 };
 
 export default App;

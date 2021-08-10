@@ -15,26 +15,30 @@ const KnowMore = ({ match }) => {
             );
         }
     };
+    
     const redirect = (d, id) => {
         if (d._id === id) {
             return (
                 <div className="container" style={{ border: "solid", borderColor: 'red' }}>
                     <div>
                         <h2 className="mb-4" style={{ backgroundColor: "blueviolet", color: "whitesmoke" }}>{d.name}</h2>
-                        <div className="mt-4">
-                            <div className="card" style={{ maxHeight: '50%', maxWidth: '55%', float: "left", marginRight: "5px", border: 'solid', borderColor: "blueviolet" }}>
-
-                                <img className="card-body mb-3" style={{ maxHeight: '95%', maxWidth: '100%', }} src={d.image} alt={d.name} />
+                        <div className="mt-4 row">
+                            <div className="col-md-7">
+                                <div className="card" style={{ float: "left", marginRight: "", border: 'solid', borderColor: "blueviolet" }}>
+                                    <img className="card-body mb-3" style={{ maxHeight: '95%', maxWidth: '100%', }} src={d.image} alt={d.name} />
+                                </div>
                             </div>
-                            <div className="card ml-3" style={{ border: 'solid', borderColor: 'blueviolet', margin: '1%' }}>
-                                <h6 style={{ marginTop: '5%' }}>Components Use:- {d.components_use} </h6>
-                                <h6>Style:- {d.style}</h6>
-                                <h6>Database Use:- {d.database}</h6>
-                                <h6>External API Use:- {d.externalapi} </h6>
-                            </div>
-                            <div className="card" style={{ border: 'solid', borderColor: 'red', margin: '1%' }}>
-                                <h5 className="card-header">Pages:-</h5>
-                                <h5 className="card-body" style={{ minHeight: '175px' }}> {d.pages} </h5>
+                            <div className="col-md-5">
+                                <div className="card" style={{ border: 'solid', borderColor: 'blueviolet', margin: '1%' }}>
+                                    <h6 style={{ marginTop: '5%' }}>Components Use:- {d.components_use} </h6>
+                                    <h6>Style:- {d.style}</h6>
+                                    <h6>Database Use:- {d.database}</h6>
+                                    <h6>External API Use:- {d.externalapi} </h6>
+                                </div>
+                                <div className="card" style={{ border: 'solid', borderColor: 'red', margin: '1%' }}>
+                                    <h5 className="card-header">Pages:-</h5>
+                                    <h5 className="card-body" style={{ minHeight: '175px' }}> {d.pages} </h5>
+                                </div>
                             </div>
                         </div>
                     </div>

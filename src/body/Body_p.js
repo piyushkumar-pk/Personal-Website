@@ -9,13 +9,13 @@ const Body_p = ({ themes }) => {
         } else {
             return 'middle-container'
         }
-    }
+    };
+    
     return (
         <div >
-
             <div className={backgroundtheme(themes)} style={themes ? { color: '#D0ECE7 ' } : {}}>
                 <div className="profile" id="aboutme">
-                    <img className="profilepic" src="images/pk.png" style={{maxHeight:'220px',maxWidth:'220px'}} alt="pk-profile" />
+                    <img className="profilepic" src="images/pk.png" style={{ maxHeight: '220px', maxWidth: '220px' }} alt="pk-profile" />
                     <h2>Hello.</h2>
                     <p className="about-me">I am full stack Web and app developer.</p>
                     <p className="about-me">I love to work on new projects and learning new things.</p>
@@ -34,7 +34,7 @@ const Body_p = ({ themes }) => {
                 </div>
             </div>
         </div>
-    )
+    );
 };
 
 export default Body_p;

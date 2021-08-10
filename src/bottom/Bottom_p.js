@@ -10,7 +10,7 @@ const Bottom_p = () => {
                 <p className="copyright">© 2021 Piyush Kumar.</p>
             </div>
         </div>
-    )
+    );
 };
 
 export default Bottom_p;

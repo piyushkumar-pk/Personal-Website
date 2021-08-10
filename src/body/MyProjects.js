@@ -4,7 +4,6 @@ import myProjectsData from "../data/my_projects.json";
 
 
 const MyProjects = ({ themes }) => {
-
     return (
         <div id="myprojects" className="mt-5">
             <div className="container mt-5" style={{ backgroundColor: themes ? '#1C2833 ' : '#EAF6F6', borderRadius: "25px" }}>
